@@ -2,7 +2,7 @@
 
 * fs 모듈은 nodejs 내장 모듈이다. 따로 설치할 필요 없다.
 
-## writeFileSync: 파일 쓰기
+## writeFileSync: 파일 만들기 / 파일 쓰기
 ```javascript
 const fs = require('fs')
 
