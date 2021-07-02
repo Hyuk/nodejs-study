@@ -121,10 +121,11 @@ $ node app.js --version
 ```
 
 ## Customize yargs version
+* app.js
 ```javascript
 const yargs = require('yargs')
 
-yargs.version('1.1.0')
+yargs.version('1.1.0') // yargs 모듈을 통해서 버전을 변경할 수 있다.
 console.log(yargs.argv)
 ```
 
