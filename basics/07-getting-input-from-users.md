@@ -119,3 +119,21 @@ $ node app.js --version
 // ]
 // 1.0.0
 ```
+
+## Customize yargs version
+```javascript
+const yargs = require('yargs')
+
+yargs.version('1.1.0')
+console.log(yargs.argv)
+```
+
+* run app.js --version
+```bash
+$ node app.js --version
+```
+
+* result
+```javascript
+// 1.1.0
+```
